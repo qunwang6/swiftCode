@@ -22,27 +22,59 @@ class ViewController: UIViewController {
     //var currentValue: Int = 50
     override func viewDidLoad() {
         super.viewDidLoad()
+        startNewGame()
+        updateLabels()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     @IBAction func showAlert(_ sender: Any) {
         let difference = abs(targetValue - currentValue)
-        let points = 100 - difference
-        let message = "The score is: \(points)"
+        var points = 100 - difference
+        let title:String
+        if difference == 0 {
+            title = "Perfect!"
+            points += 100
+        } else if difference < 5 {
+            title = "You almost had it."
+            if difference == 1 {
+               points += 50
+            }
+            
+        } else if difference < 10 {
+            title = "pretty good."
+        } else {
+            title = "not even close..."
+        }
         score += points
-        let alert = UIAlertController(title: "hello,world", message: message, preferredStyle: .alert )
-        let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
+        
+        let message = "The score is: \(points)"
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert )
+        let action = UIAlertAction(title: "OK", style: .default, handler: { action in
+            self.startNewRound()
+            self.updateLabels()
+        })
         alert.addAction(action)
         present(alert,animated: true,completion: nil)
-        startNewRound()
-        updateLabels()
+        //startNewRound()
+        //updateLabels()
         
     }
     
     @IBAction func sliderMoved(_ slider: UISlider) {
         currentValue = lroundf(slider.value)
     }
-    
+
+    @IBAction func startOver(_ sender: Any) {
+        startNewGame()
+        updateLabels()
+        
+    }
+    func startNewGame(){
+        score = 0
+        round = 0
+        startNewRound()
+    }
     func startNewRound(){
         round = round + 1
         targetValue = 1 + Int(arc4random_uniform(100))

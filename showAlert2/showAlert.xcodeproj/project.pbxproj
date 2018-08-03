@@ -12,6 +12,7 @@
 		B9B77BF221118FC700C6880F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B77BF021118FC700C6880F /* Main.storyboard */; };
 		B9B77BF421118FC900C6880F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B77BF321118FC900C6880F /* Assets.xcassets */; };
 		B9B77BF721118FC900C6880F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B77BF521118FC900C6880F /* LaunchScreen.storyboard */; };
+		B9BF716021143152002366BB /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF715F21143152002366BB /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		B9B77BF821118FC900C6880F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9B77BFD21118FC900C6880F /* showAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = showAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B77C0821118FC900C6880F /* showAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = showAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BF715F21143152002366BB /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				B9B77BEC21118FC700C6880F /* AppDelegate.swift */,
 				B9B77BEE21118FC700C6880F /* ViewController.swift */,
+				B9BF715F21143152002366BB /* AboutViewController.swift */,
 				B9B77BF021118FC700C6880F /* Main.storyboard */,
 				B9B77BF321118FC900C6880F /* Assets.xcassets */,
 				B9B77BF521118FC900C6880F /* LaunchScreen.storyboard */,
@@ -232,6 +235,7 @@
 			files = (
 				B9B77BEF21118FC700C6880F /* ViewController.swift in Sources */,
 				B9B77BED21118FC700C6880F /* AppDelegate.swift in Sources */,
+				B9BF716021143152002366BB /* AboutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
