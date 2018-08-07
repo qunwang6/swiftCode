@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9C02BFE21181C5000CFE360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C02BFD21181C5000CFE360 /* AppDelegate.swift */; };
-		B9C02C0021181C5000CFE360 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C02BFF21181C5000CFE360 /* ChecklistViewController.swift */; };
-		B9C02C0321181C5000CFE360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C02C0121181C5000CFE360 /* Main.storyboard */; };
-		B9C02C0521181C5500CFE360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C02C0421181C5500CFE360 /* Assets.xcassets */; };
-		B9C02C0821181C5500CFE360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C02C0621181C5500CFE360 /* LaunchScreen.storyboard */; };
-		B9C02C10211845BC00CFE360 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C02C0F211845BC00CFE360 /* ChecklistItem.swift */; };
+		B9DD0FA0211982AB002E9BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD0F9F211982AB002E9BC0 /* AppDelegate.swift */; };
+		B9DD0FA2211982AB002E9BC0 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD0FA1211982AB002E9BC0 /* CurrentLocationViewController.swift */; };
+		B9DD0FA4211982AB002E9BC0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD0FA3211982AB002E9BC0 /* SecondViewController.swift */; };
+		B9DD0FA7211982AB002E9BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DD0FA5211982AB002E9BC0 /* Main.storyboard */; };
+		B9DD0FA9211982AC002E9BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DD0FA8211982AC002E9BC0 /* Assets.xcassets */; };
+		B9DD0FAC211982AC002E9BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DD0FAA211982AC002E9BC0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B9C02BFA21181C5000CFE360 /* checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9C02BFD21181C5000CFE360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9C02BFF21181C5000CFE360 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
-		B9C02C0221181C5000CFE360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B9C02C0421181C5500CFE360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B9C02C0721181C5500CFE360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B9C02C0921181C5500CFE360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9C02C0F211845BC00CFE360 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		B9DD0F9C211982AB002E9BC0 /* MyLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DD0F9F211982AB002E9BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9DD0FA1211982AB002E9BC0 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
+		B9DD0FA3211982AB002E9BC0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B9DD0FA6211982AB002E9BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9DD0FA8211982AC002E9BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9DD0FAB211982AC002E9BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9DD0FAD211982AC002E9BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B9C02BF721181C5000CFE360 /* Frameworks */ = {
+		B9DD0F99211982AB002E9BC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B9C02BF121181C5000CFE360 = {
+		B9DD0F93211982AB002E9BC0 = {
 			isa = PBXGroup;
 			children = (
-				B9C02BFC21181C5000CFE360 /* checklists */,
-				B9C02BFB21181C5000CFE360 /* Products */,
+				B9DD0F9E211982AB002E9BC0 /* MyLocation */,
+				B9DD0F9D211982AB002E9BC0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B9C02BFB21181C5000CFE360 /* Products */ = {
+		B9DD0F9D211982AB002E9BC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9C02BFA21181C5000CFE360 /* checklists.app */,
+				B9DD0F9C211982AB002E9BC0 /* MyLocation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9C02BFC21181C5000CFE360 /* checklists */ = {
+		B9DD0F9E211982AB002E9BC0 /* MyLocation */ = {
 			isa = PBXGroup;
 			children = (
-				B9C02BFD21181C5000CFE360 /* AppDelegate.swift */,
-				B9C02BFF21181C5000CFE360 /* ChecklistViewController.swift */,
-				B9C02C0121181C5000CFE360 /* Main.storyboard */,
-				B9C02C0421181C5500CFE360 /* Assets.xcassets */,
-				B9C02C0621181C5500CFE360 /* LaunchScreen.storyboard */,
-				B9C02C0921181C5500CFE360 /* Info.plist */,
-				B9C02C0F211845BC00CFE360 /* ChecklistItem.swift */,
+				B9DD0F9F211982AB002E9BC0 /* AppDelegate.swift */,
+				B9DD0FA1211982AB002E9BC0 /* CurrentLocationViewController.swift */,
+				B9DD0FA3211982AB002E9BC0 /* SecondViewController.swift */,
+				B9DD0FA5211982AB002E9BC0 /* Main.storyboard */,
+				B9DD0FA8211982AC002E9BC0 /* Assets.xcassets */,
+				B9DD0FAA211982AC002E9BC0 /* LaunchScreen.storyboard */,
+				B9DD0FAD211982AC002E9BC0 /* Info.plist */,
 			);
-			path = checklists;
+			path = MyLocation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9C02BF921181C5000CFE360 /* checklists */ = {
+		B9DD0F9B211982AB002E9BC0 /* MyLocation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9C02C0C21181C5500CFE360 /* Build configuration list for PBXNativeTarget "checklists" */;
+			buildConfigurationList = B9DD0FB0211982AC002E9BC0 /* Build configuration list for PBXNativeTarget "MyLocation" */;
 			buildPhases = (
-				B9C02BF621181C5000CFE360 /* Sources */,
-				B9C02BF721181C5000CFE360 /* Frameworks */,
-				B9C02BF821181C5000CFE360 /* Resources */,
+				B9DD0F98211982AB002E9BC0 /* Sources */,
+				B9DD0F99211982AB002E9BC0 /* Frameworks */,
+				B9DD0F9A211982AB002E9BC0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = checklists;
-			productName = checklists;
-			productReference = B9C02BFA21181C5000CFE360 /* checklists.app */;
+			name = MyLocation;
+			productName = MyLocation;
+			productReference = B9DD0F9C211982AB002E9BC0 /* MyLocation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B9C02BF221181C5000CFE360 /* Project object */ = {
+		B9DD0F94211982AB002E9BC0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = MacOSBeta;
 				TargetAttributes = {
-					B9C02BF921181C5000CFE360 = {
+					B9DD0F9B211982AB002E9BC0 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = B9C02BF521181C5000CFE360 /* Build configuration list for PBXProject "checklists" */;
+			buildConfigurationList = B9DD0F97211982AB002E9BC0 /* Build configuration list for PBXProject "MyLocation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = B9C02BF121181C5000CFE360;
-			productRefGroup = B9C02BFB21181C5000CFE360 /* Products */;
+			mainGroup = B9DD0F93211982AB002E9BC0;
+			productRefGroup = B9DD0F9D211982AB002E9BC0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9C02BF921181C5000CFE360 /* checklists */,
+				B9DD0F9B211982AB002E9BC0 /* MyLocation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B9C02BF821181C5000CFE360 /* Resources */ = {
+		B9DD0F9A211982AB002E9BC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9C02C0821181C5500CFE360 /* LaunchScreen.storyboard in Resources */,
-				B9C02C0521181C5500CFE360 /* Assets.xcassets in Resources */,
-				B9C02C0321181C5000CFE360 /* Main.storyboard in Resources */,
+				B9DD0FAC211982AC002E9BC0 /* LaunchScreen.storyboard in Resources */,
+				B9DD0FA9211982AC002E9BC0 /* Assets.xcassets in Resources */,
+				B9DD0FA7211982AB002E9BC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B9C02BF621181C5000CFE360 /* Sources */ = {
+		B9DD0F98211982AB002E9BC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9C02C0021181C5000CFE360 /* ChecklistViewController.swift in Sources */,
-				B9C02C10211845BC00CFE360 /* ChecklistItem.swift in Sources */,
-				B9C02BFE21181C5000CFE360 /* AppDelegate.swift in Sources */,
+				B9DD0FA4211982AB002E9BC0 /* SecondViewController.swift in Sources */,
+				B9DD0FA0211982AB002E9BC0 /* AppDelegate.swift in Sources */,
+				B9DD0FA2211982AB002E9BC0 /* CurrentLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B9C02C0121181C5000CFE360 /* Main.storyboard */ = {
+		B9DD0FA5211982AB002E9BC0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B9C02C0221181C5000CFE360 /* Base */,
+				B9DD0FA6211982AB002E9BC0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B9C02C0621181C5500CFE360 /* LaunchScreen.storyboard */ = {
+		B9DD0FAA211982AC002E9BC0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B9C02C0721181C5500CFE360 /* Base */,
+				B9DD0FAB211982AC002E9BC0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B9C02C0A21181C5500CFE360 /* Debug */ = {
+		B9DD0FAE211982AC002E9BC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		B9C02C0B21181C5500CFE360 /* Release */ = {
+		B9DD0FAF211982AC002E9BC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,36 +282,34 @@
 			};
 			name = Release;
 		};
-		B9C02C0D21181C5500CFE360 /* Debug */ = {
+		B9DD0FB1211982AC002E9BC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = checklists/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = MyLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qun.checklists;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qun.MyLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B9C02C0E21181C5500CFE360 /* Release */ = {
+		B9DD0FB2211982AC002E9BC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = checklists/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = MyLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qun.checklists;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qun.MyLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9C02BF521181C5000CFE360 /* Build configuration list for PBXProject "checklists" */ = {
+		B9DD0F97211982AB002E9BC0 /* Build configuration list for PBXProject "MyLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9C02C0A21181C5500CFE360 /* Debug */,
-				B9C02C0B21181C5500CFE360 /* Release */,
+				B9DD0FAE211982AC002E9BC0 /* Debug */,
+				B9DD0FAF211982AC002E9BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9C02C0C21181C5500CFE360 /* Build configuration list for PBXNativeTarget "checklists" */ = {
+		B9DD0FB0211982AC002E9BC0 /* Build configuration list for PBXNativeTarget "MyLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9C02C0D21181C5500CFE360 /* Debug */,
-				B9C02C0E21181C5500CFE360 /* Release */,
+				B9DD0FB1211982AC002E9BC0 /* Debug */,
+				B9DD0FB2211982AC002E9BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B9C02BF221181C5000CFE360 /* Project object */;
+	rootObject = B9DD0F94211982AB002E9BC0 /* Project object */;
 }
